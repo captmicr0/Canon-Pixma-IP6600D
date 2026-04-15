@@ -1,0 +1,245 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 15 Apr 2026 02:04:17 at http://web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/ https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/1.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/2.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/3.html https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/5.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/6.html https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html https://web.archive.org/web/20071102082403/http://pixma-faq.periastron.com/8.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/9.html https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qir2%e1C2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/ https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/1.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/2.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/3.html https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/5.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/6.html https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html https://web.archive.org/web/20071102082403/http://pixma-faq.periastron.com/8.html https://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/9.html https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html -O1 "C:\Users\captmicr0\Desktop\pixma-faq\pixma-aq.periastron.com" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+02:04:45	Warning: 	FOUND for web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/
+02:04:45	Warning: 	File has moved from web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/ to http://web.archive.org/web/20080101103419/http://pixma-faq.periastron.com/
+02:12:02	Error: 	"NOT FOUND" (404) at link https://web-static.archive.org/_static/ (from https://web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/1.html)
+02:12:02	Warning: 	FOUND for https://web.archive.org/web/20080105035258/http://www.stevesforums.com/
+02:12:02	Warning: 	File has moved from https://web.archive.org/web/20080105035258/http://www.stevesforums.com/ to https://web.archive.org/web/20071230041333/http://www.stevesforums.com/
+02:12:02	Warning: 	FOUND for https://web.archive.org/web/20080105035258/http://www.steves-digicams.com/
+02:12:02	Warning: 	File has moved from https://web.archive.org/web/20080105035258/http://www.steves-digicams.com/ to https://web.archive.org/web/20080105120337/http://www.steves-digicams.com/
+02:12:02	Warning: 	Found for https://web.archive.org/web/20130214080955im_/http://pixma-faq.periastron.com/left.gif
+02:12:02	Warning: 	File has moved from https://web.archive.org/web/20130214080955im_/http://pixma-faq.periastron.com/left.gif to https://web.archive.org/web/20130214080955im_/http://pagesinxt.com/?dn=pixma-faq.periastron.com&flrdr=yes&nxte=gif
+02:12:02	Warning: 	Found for https://web.archive.org/web/20130214080955im_/http://pixma-faq.periastron.com/right.gif
+02:12:02	Warning: 	File has moved from https://web.archive.org/web/20130214080955im_/http://pixma-faq.periastron.com/right.gif to https://web.archive.org/web/20130214080955im_/http://pagesinxt.com/?dn=pixma-faq.periastron.com&flrdr=yes&nxte=gif
+02:12:02	Warning: 	Link https://web.archive.org/web/20080106233005/http://www.expansys.com/error.aspx?exit=15&data=product.asp-CAN_PIXMA_IP3000 not scanned (follow robots meta tag)
+02:12:02	Warning: 	Link https://web.archive.org/web/20080106232630/http://www.expansys.com/error.aspx?exit=15&data=product.asp-CAN_PIXMA_IP4000 not scanned (follow robots meta tag)
+02:12:02	Warning: 	Link https://web.archive.org/web/20080106232635/http://www.expansys.com/error.aspx?exit=15&data=product.asp-CAN_PIXMA_IP4000R not scanned (follow robots meta tag)
+02:12:02	Warning: 	Link https://web.archive.org/web/20080106233014/http://www.expansys.com/error.aspx?exit=15&data=product.asp-CAN_PIXMA_IP5000 not scanned (follow robots meta tag)
+02:12:02	Warning: 	FOUND for https://web.archive.org/web/20080105035258/http://www.xe.com/
+02:12:02	Warning: 	File has moved from https://web.archive.org/web/20080105035258/http://www.xe.com/ to https://web.archive.org/web/20071227022542/http://www.xe.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035258im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035258im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035258/http://www.cybervortex.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035258/http://www.cybervortex.com/ to https://web.archive.org/web/20080101111717/http://www.cybervortex.com/
+02:12:03	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20070107073100im_/http://www.cybervortex.com/_borders/spiral2_small.gif (from https://web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/1.html)
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035303/http://www.stevesforums.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035303/http://www.stevesforums.com/ to https://web.archive.org/web/20071230041333/http://www.stevesforums.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035303/http://www.steves-digicams.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035303/http://www.steves-digicams.com/ to https://web.archive.org/web/20080105120337/http://www.steves-digicams.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20071105222759/http://www.100webads.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20071105222759/http://www.100webads.com/ to https://web.archive.org/web/20071113215354/http://www.100webads.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035303im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035303im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035303/http://www.cybervortex.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035303/http://www.cybervortex.com/ to https://web.archive.org/web/20080101111717/http://www.cybervortex.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://www.stevesforums.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://www.stevesforums.com/ to https://web.archive.org/web/20071230041333/http://www.stevesforums.com/
+02:12:03	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://www.steves-digicams.com/
+02:12:03	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://www.steves-digicams.com/ to https://web.archive.org/web/20080105120337/http://www.steves-digicams.com/
+02:12:03	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20080105035309/http://search.ebay.com/search/search.dll?cgiurl=http://cgi.ebay.com/ws/&fkr=1&from=R8&satitle=canon+cd+tray&category0= (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:12:03	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-4.gif (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:12:04	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/7.html (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:12:04	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-6.jpg (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:12:04	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-8.gif (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:13:41	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-9-big.jpg (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:13:41	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-9.jpg (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:13:41	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-10-big.gif (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:13:45	Warning: 	Retry after error -4 (Connect Error) at link https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-10.gif (from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3.html)
+02:15:18	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:18	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:18	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://www.cybervortex.com/
+02:15:18	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://www.cybervortex.com/ to https://web.archive.org/web/20080101111717/http://www.cybervortex.com/
+02:15:18	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link users.cjb.net/robots.txt (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:18	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link users.cjb.net/pixma-faq/4.html (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:24	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20071102114328/http://web.archive.org/screenshot/http://users.cjb.net/pixma-faq/4.html (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:24	Warning: 	Moved Permanently for www.alexa.com/robots.txt
+02:15:24	Warning: 	Redirected link is identical because of 'URL Hack' option: www.alexa.com/robots.txt and https://www.alexa.com/robots.txt
+02:15:24	Warning: 	Warning moved treated for www.alexa.com/robots.txt (real one is https://www.alexa.com/robots.txt)
+02:15:24	Warning: 	Moved Permanently for www.alexa.com/
+02:15:24	Warning: 	Redirected link is identical because of 'URL Hack' option: www.alexa.com/ and https://www.alexa.com/
+02:15:24	Warning: 	File has moved from www.alexa.com/ to https://www.alexa.com/
+02:15:24	Warning: 	FOUND for https://web.archive.org/web/20071102114328/http://www.stevesforums.com/
+02:15:24	Warning: 	File has moved from https://web.archive.org/web/20071102114328/http://www.stevesforums.com/ to https://web.archive.org/web/20071013023843/http://www.stevesforums.com/
+02:15:24	Warning: 	FOUND for https://web.archive.org/web/20071102114328/http://www.steves-digicams.com/
+02:15:24	Warning: 	File has moved from https://web.archive.org/web/20071102114328/http://www.steves-digicams.com/ to https://web.archive.org/web/20071102195057/http://www.steves-digicams.com/
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063400im_/http://users.cjb.net/pixma-faq/MP750780.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063336im_/http://users.cjb.net/pixma-faq/MP760.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063159im_/http://users.cjb.net/pixma-faq/MAP.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063537im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-1.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063549im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-2.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063602im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-3.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063616im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-4.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063628im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-5.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063641im_/http://users.cjb.net/pixma-faq/PIXMA%207XX-6.gif (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:25	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20060519063142im_/http://users.cjb.net/pixma-faq/mp760-rom.JPG (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:26	Warning: 	FOUND for https://web.archive.org/web/20080105035319/http://www.stevesforums.com/
+02:15:26	Warning: 	File has moved from https://web.archive.org/web/20080105035319/http://www.stevesforums.com/ to https://web.archive.org/web/20071230041333/http://www.stevesforums.com/
+02:15:26	Warning: 	FOUND for https://web.archive.org/web/20080105035319/http://www.steves-digicams.com/
+02:15:26	Warning: 	File has moved from https://web.archive.org/web/20080105035319/http://www.steves-digicams.com/ to https://web.archive.org/web/20080105120337/http://www.steves-digicams.com/
+02:15:26	Warning: 	FOUND for https://web.archive.org/web/20080105035319/http://software.canon-europe.com/
+02:15:26	Warning: 	File has moved from https://web.archive.org/web/20080105035319/http://software.canon-europe.com/ to https://web.archive.org/web/20071215204230/http://software.canon-europe.com/
+02:15:26	Error: 	"Not Found" (404) at link https://web.archive.org/web/20080109133402/http://www.canon.com.hk/En/product/Series.aspx?productcategory_id=1 (from https://web.archive.org/web/20080105035319/http://pixma-faq.periastron.com/5.html)
+02:15:27	Error: 	"Object Not Found" (404) at link https://web.archive.org/web/20080109141031/http://cmtw.canon.com.tw/service/driver2.asp?ProductID1=00000014&ProductID3=00000227 (from https://web.archive.org/web/20080105035319/http://pixma-faq.periastron.com/5.html)
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105035319/http://knightcrawler.filefront.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105035319/http://knightcrawler.filefront.com/ to https://web.archive.org/web/20080115190858/http://knightcrawler.filefront.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105035319im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105035319im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105035319/http://www.cybervortex.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105035319/http://www.cybervortex.com/ to https://web.archive.org/web/20080101111717/http://www.cybervortex.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105040133/http://www.stevesforums.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105040133/http://www.stevesforums.com/ to https://web.archive.org/web/20071230041333/http://www.stevesforums.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105040133/http://www.steves-digicams.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105040133/http://www.steves-digicams.com/ to https://web.archive.org/web/20080105120337/http://www.steves-digicams.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105040133im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105040133im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20080105040133/http://www.cybervortex.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20080105040133/http://www.cybervortex.com/ to https://web.archive.org/web/20080101111717/http://www.cybervortex.com/
+02:15:27	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link users.cjb.net/pixma-faq/7.html (from https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html)
+02:15:27	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20070918210416/http://web.archive.org/screenshot/http://users.cjb.net/pixma-faq/7.html (from https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html)
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20070918210416/http://www.stevesforums.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20070918210416/http://www.stevesforums.com/ to https://web.archive.org/web/20071013023843/http://www.stevesforums.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20070918210416/http://www.steves-digicams.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20070918210416/http://www.steves-digicams.com/ to https://web.archive.org/web/20070922114536/http://steves-digicams.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20070918210416/http://www.cjb.net/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20070918210416/http://www.cjb.net/ to https://web.archive.org/web/20070922154645/http://www.cjb.net/
+02:15:27	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20071102082403/http://web.archive.org/screenshot/http://pixma-faq.periastron.com/8.html (from https://web.archive.org/web/20071102082403/http://pixma-faq.periastron.com/8.html)
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://www.stevesforums.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://www.stevesforums.com/ to https://web.archive.org/web/20071013023843/http://www.stevesforums.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://www.steves-digicams.com/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://www.steves-digicams.com/ to https://web.archive.org/web/20071102195057/http://www.steves-digicams.com/
+02:15:27	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://www.acoustica.com/cd-label-maker/
+02:15:27	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://www.acoustica.com/cd-label-maker/ to https://web.archive.org/web/20071102062400/http://www.acoustica.com/cd-label-maker
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://www.surething.com/ST/
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://www.surething.com/ST/ to https://web.archive.org/web/20071018030650/http://www.surething.com/ST/
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://pete.mvd2.com/
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://pete.mvd2.com/ to https://web.archive.org/web/20080325085648/http://pete.mvd2.com/
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082403im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082403im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082403/http://www.cybervortex.com/
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082403/http://www.cybervortex.com/ to https://web.archive.org/web/20071102084322/http://www.cybervortex.com/
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082408/http://www.stevesforums.com/
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082408/http://www.stevesforums.com/ to https://web.archive.org/web/20071013023843/http://www.stevesforums.com/
+02:15:28	Warning: 	FOUND for https://web.archive.org/web/20071102082408/http://www.steves-digicams.com/
+02:15:28	Warning: 	File has moved from https://web.archive.org/web/20071102082408/http://www.steves-digicams.com/ to https://web.archive.org/web/20071102195057/http://www.steves-digicams.com/
+02:15:28	Error: 	"Not Found" (404) at link https://web.archive.org/web/20130214082941/http://home.kc.rr.com/azzkikr69/Install.jpg (from https://web.archive.org/web/20071102082408/http://pixma-faq.periastron.com/9.html)
+02:15:28	Error: 	"Not Found" (404) at link https://web.archive.org/web/20130214082941/http://home.kc.rr.com/azzkikr69/ip5000.jpg (from https://web.archive.org/web/20071102082408/http://pixma-faq.periastron.com/9.html)
+02:15:29	Warning: 	Link https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/attachment.php?id=11413 not scanned (follow robots meta tag)
+02:15:29	Warning: 	Link https://web.archive.org/web/20060629000008/http://www.stevesforums.com/forums/attachment.php?id=5242 not scanned (follow robots meta tag)
+02:15:29	Warning: 	Link https://web.archive.org/web/20060629000058/http://www.stevesforums.com/forums/attachment.php?id=14949 not scanned (follow robots meta tag)
+02:15:29	Warning: 	Link https://web.archive.org/web/20060629000345/http://www.stevesforums.com/forums/attachment.php?id=15200 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000401/http://www.stevesforums.com/forums/attachment.php?id=17682 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000412/http://www.stevesforums.com/forums/attachment.php?id=24554 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000428/http://www.stevesforums.com/forums/attachment.php?id=24555 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000033/http://www.stevesforums.com/forums/attachment.php?id=24556 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000440/http://www.stevesforums.com/forums/attachment.php?id=24727 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000457/http://www.stevesforums.com/forums/attachment.php?id=24774 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000558/http://www.stevesforums.com/forums/attachment.php?id=24784 not scanned (follow robots meta tag)
+02:15:30	Warning: 	Link https://web.archive.org/web/20060629000134/http://www.stevesforums.com/forums/attachment.php?id=24776 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000516/http://www.stevesforums.com/forums/attachment.php?id=24777 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000526/http://www.stevesforums.com/forums/attachment.php?id=24779 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000540/http://www.stevesforums.com/forums/attachment.php?id=24780 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000843/http://www.stevesforums.com/forums/attachment.php?id=26626 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000611/http://www.stevesforums.com/forums/attachment.php?id=24881 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000626/http://www.stevesforums.com/forums/attachment.php?id=24997 not scanned (follow robots meta tag)
+02:15:31	Warning: 	Link https://web.archive.org/web/20060629000644/http://www.stevesforums.com/forums/attachment.php?id=25030 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000701/http://www.stevesforums.com/forums/attachment.php?id=25076 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000714/http://www.stevesforums.com/forums/attachment.php?id=25135 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000728/http://www.stevesforums.com/forums/attachment.php?id=25136 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000743/http://www.stevesforums.com/forums/attachment.php?id=25137 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000756/http://www.stevesforums.com/forums/attachment.php?id=25554 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000808/http://www.stevesforums.com/forums/attachment.php?id=26168 not scanned (follow robots meta tag)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000819/http://www.stevesforums.com/forums/attachment.php?id=26415 not scanned (follow robots meta tag)
+02:15:32	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20071102082408/http://www.stevesforums.com/forums/view_topic.php?id=36631&forum_id=40&page=69 (from https://web.archive.org/web/20071102082408/http://pixma-faq.periastron.com/9.html)
+02:15:32	Warning: 	Link https://web.archive.org/web/20060629000833/http://www.stevesforums.com/forums/attachment.php?id=26615 not scanned (follow robots meta tag)
+02:15:33	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20071102082408/http://www.stevesforums.com/forums/view_topic.php?id=65316&forum_id=40&jump_to=370168 (from https://web.archive.org/web/20071102082408/http://pixma-faq.periastron.com/9.html)
+02:15:33	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20071102082408/http://www.stevesforums.com/forums/view_topic.php?id=36631&forum_id=40&jump_to=372240 (from https://web.archive.org/web/20071102082408/http://pixma-faq.periastron.com/9.html)
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20071102082408/http://cdtray.cjb.net/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20071102082408/http://cdtray.cjb.net/ to https://web.archive.org/web/20071105132858/http://cdtray.cjb.net/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20071102082408im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20071102082408im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4 to https://web.archive.org/web/20070102205427im_/http://pixma-faq.periastron.com/_vti_bin/fpcount.exe/?Page=index.html|Image=4
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20071102082408/http://www.cybervortex.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20071102082408/http://www.cybervortex.com/ to https://web.archive.org/web/20071102084322/http://www.cybervortex.com/
+02:15:33	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link users.cjb.net/pixma-faq/10.html (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:33	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20070918204849/http://web.archive.org/screenshot/http://users.cjb.net/pixma-faq/10.html (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.stevesforums.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.stevesforums.com/ to https://web.archive.org/web/20071013023843/http://www.stevesforums.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.steves-digicams.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.steves-digicams.com/ to https://web.archive.org/web/20070922114536/http://steves-digicams.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.stevesforums.com/forums/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.stevesforums.com/forums/ to https://web.archive.org/web/20070920100100/http://www.stevesforums.com/forums/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.nifty-stuff.com/forum/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.nifty-stuff.com/forum/ to https://web.archive.org/web/20070913025408/http://www.nifty-stuff.com/forum/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.druckerchannel.de/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.druckerchannel.de/ to https://web.archive.org/web/20070925042808/http://www.druckerchannel.de/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://club.cdfreaks.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://club.cdfreaks.com/ to https://web.archive.org/web/20070927213356/http://club.cdfreaks.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/https://www.atlanticinkjet.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/https://www.atlanticinkjet.com/ to https://web.archive.org/web/20070917040452/http://atlanticinkjet.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.alotofthings.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.alotofthings.com/ to https://web.archive.org/web/20070921214221/http://www.alotofthings.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://hobbicolors.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://hobbicolors.com/ to https://web.archive.org/web/20070920173713/http://www.hobbicolors.com/
+02:15:33	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20070918204849/http://search.ebay.com/search/search.dll?cgiurl=http://cgi.ebay.com/ws/&fkr=1&from=R8&satitle=hobbicolors&category0= (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.image-specialists.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.image-specialists.com/ to https://web.archive.org/web/20070918182258/http://www.image-specialists.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.inkgrabbers.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.inkgrabbers.com/ to https://web.archive.org/web/20070127014759/http://www.inkgrabbers.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.inkjetgoodies.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.inkjetgoodies.com/ to https://web.archive.org/web/20070904221550/http://www.inkjetgoodies.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.inkrepublic.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.inkrepublic.com/ to https://web.archive.org/web/20071018030820/http://www.inkrepublic.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.inktec.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.inktec.com/ to https://web.archive.org/web/20070924214415/http://www.inktec.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.lasermonks.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.lasermonks.com/ to https://web.archive.org/web/20071006051115/http://www.lasermonks.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.lyson.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.lyson.com/ to https://web.archive.org/web/20070921170246/http://www.lyson.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.mediastreet.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.mediastreet.com/ to https://web.archive.org/web/20070911145334/http://www.mediastreet.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.ocp-online.de/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.ocp-online.de/ to https://web.archive.org/web/20070811025634/http://www.ocp-online.de/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.inksupply.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.inksupply.com/ to https://web.archive.org/web/20070915221720/http://www.inksupply.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.responsibleink.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.responsibleink.com/ to https://web.archive.org/web/20070718024532/http://www.responsibleink.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.sensient-tech.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.sensient-tech.com/ to https://web.archive.org/web/20070916102639/http://www.sensient-tech.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.swiftink.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.swiftink.com/ to https://web.archive.org/web/20071005002849/http://www.swiftink.com/
+02:15:33	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.weink.com/
+02:15:33	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.weink.com/ to https://web.archive.org/web/20070924151818/http://www.weink.com/
+02:15:34	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20070918204849/ftp://ownload.canon.jp/pub/driver/bj/linux/ (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:34	Error: 	"Not Found" (404) at link https://web.archive.org/web/20070920194150/http://www.turboprint.de/english.html/ (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20070918204849/http://www.cjb.net/
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20070918204849/http://www.cjb.net/ to https://web.archive.org/web/20070922154645/http://www.cjb.net/
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-4.gif
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-4.gif to https://web.archive.org/web/20060501131109im_/http://pixma-faq.periastron.com/3-4.gif
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/7.html
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/7.html to https://web.archive.org/web/20080226055729/http://pixma-faq.periastron.com/7.html
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-6.jpg
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-6.jpg to https://web.archive.org/web/20060501131051im_/http://pixma-faq.periastron.com/3-6.jpg
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-8.gif
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-8.gif to https://web.archive.org/web/20061127201242im_/http://pixma-faq.periastron.com/3-8.gif
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-9-big.jpg
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-9-big.jpg to https://web.archive.org/web/20060501131102/http://pixma-faq.periastron.com/3-9-big.jpg
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-9.jpg
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-9.jpg to https://web.archive.org/web/20061127201912im_/http://pixma-faq.periastron.com/3-9.jpg
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-10-big.gif
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309/http://pixma-faq.periastron.com/3-10-big.gif to https://web.archive.org/web/20061201095700/http://pixma-faq.periastron.com/3-10-big.gif
+02:15:34	Warning: 	FOUND for https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-10.gif
+02:15:34	Warning: 	File has moved from https://web.archive.org/web/20080105035309im_/http://pixma-faq.periastron.com/3-10.gif to https://web.archive.org/web/20061128130551im_/http://pixma-faq.periastron.com/3-10.gif
+02:15:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link users.cjb.net/pixma-faq/4.html (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link users.cjb.net/pixma-faq/7.html (from https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html)
+02:15:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link users.cjb.net/pixma-faq/10.html (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+02:15:34	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link users.cjb.net/pixma-faq/4.html (from https://web.archive.org/web/20071102114328/http://users.cjb.net/pixma-faq/4.html)
+02:15:34	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link users.cjb.net/pixma-faq/7.html (from https://web.archive.org/web/20070918210416/http://users.cjb.net/pixma-faq/7.html)
+02:15:34	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link users.cjb.net/pixma-faq/10.html (from https://web.archive.org/web/20070918204849/http://users.cjb.net/pixma-faq/10.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 17 seconds : 318 links scanned, 189 files written (29872672 bytes overall), 163 files updated [25915952 bytes received at 38280 bytes/sec], 8908403 bytes transferred using HTTP compression in 162 files, ratio 22%, 8.9 requests per connection
+(31 errors, 203 warnings, 0 messages)

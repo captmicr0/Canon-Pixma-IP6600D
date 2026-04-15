@@ -1,0 +1,347 @@
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/bundle-playbackffba.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/wombat9b8c.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.stevesforums.com/forums/attachment.php?id=11413","20060629000333","../../../../../index.html","web","../../../../../../web-static.archive.org/_static/index.html",
+	      "1151539413");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../web-static.archive.org/_static/css/banner-styles074f.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="../../../../../../web-static.archive.org/_static/css/iconochive29a7.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<p align="center">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/attachment.php?id=11413 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Apr 2026 06:15:29 GMT -->
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="robots" content="noindex,nofollow">
+<title dir="ltr">Message</title>
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20060629000333cs_/http://www.stevesforums.com/forums/themes/shades/style_sheet.css">
+<script type="text/javascript">
+
+function suppress_errors()
+{
+   return true;
+}
+
+window.onerror = suppress_errors;
+
+
+var browser_type;
+var browser_version;
+var cookie_params = new Array();
+var today         = new Date();
+
+function get_cookie()
+{
+   var cookies     = document.cookie.split("; ");
+   var num_cookies = cookies.length;
+   var i;
+   var parts;
+   cookie_params[2] = "none";
+
+   for (i = 0; i < num_cookies; i++)
+      {
+         parts = cookies[i].split("=");
+         if (parts[0] == "wowbb")
+            {
+               cookie_values = unescape(parts[1]);
+               cookie_params = cookie_values.split("||");
+               return;
+            }
+      }
+}
+
+
+function set_cookie()
+{
+   var cookie_expires = today.toUTCString(today.setSeconds(157680000));
+   var cookie_value   = escape(cookie_params.join("||"));
+
+   document.cookie    = "wowbb=" + cookie_value + "; expires=" + cookie_expires +
+                        "; domain=.stevesforums.com; path=/forums";
+}
+
+
+navigator.userAgent.indexOf("MSIE") != -1 ? browser_type = "MSIE" : browser_type = "Netscape";
+if (browser_type == "MSIE")
+   {
+      browser_version = navigator.userAgent.substr(navigator.userAgent.indexOf("MSIE") + 5, 1);
+      if (navigator.userAgent.indexOf("Mac_PowerPC") != -1)
+         browser_version = "Mac";
+      if (browser_version.substr(0, 1) == 4)
+         browser_type = "MSIE4";
+   }
+if (navigator.userAgent.indexOf("Gecko") != -1)
+   browser_type = "Gecko";
+
+get_cookie();
+cookie_params[2] = -today.getTimezoneOffset();
+set_cookie();
+
+function more_init()
+{
+
+}
+
+var active_menu;
+var active_link;
+var active_link_class;
+
+
+function get_element(id)
+{
+   if (browser_type == "MSIE4")
+      return document.all[id];
+   else
+      return document.getElementById(id);
+}
+
+
+function window_dims()
+{
+   var dims = new Array("window_width", "window_height", "scroll_top", "scroll_top2");
+   if (browser_type == "MSIE")
+      {
+         dims["window_width"]  = document.body.clientWidth;
+         dims["window_height"] = document.body.clientHeight;
+         dims["scroll_top"]    = document.body.scrollTop;
+         dims["scroll_top2"]   = dims["scroll_top"];
+      }
+   else
+      {
+         dims["window_width"]  = window.innerWidth;
+         dims["window_height"] = window.innerHeight;
+         dims["scroll_top"]    = window.scrollY;
+         dims["scroll_top2"]   = 0;
+      }
+
+   return dims;
+}
+
+
+function get_obj_pos(obj, obj_pos_x, obj_pos_y, dims)
+{
+   x = obj_pos_x + obj.offsetLeft;
+   y = obj_pos_y + obj.offsetTop;
+   if (obj.offsetParent != null)
+      {
+         browser_type == "MSIE" ? dims["scroll_top"] = obj.offsetParent.scrollTop : dims["scroll_top"] = 0;
+         get_obj_pos(obj.offsetParent, x, y - dims["scroll_top"], dims);
+      }
+   return new Array(x, y);
+}
+
+
+function show_menu(event, obj, menu_id)
+{
+   var horizontal_shift = 20;
+   var vertical_shift   = 2;
+
+   if (browser_type == "Netscape" || browser_version == "Mac" || browser_version == "4")
+      return;
+
+   var menu = get_element(menu_id);
+   var pc;
+
+   if (menu == null)
+      {
+         if (browser_type == "MSIE")
+            menu = document.createElement('<DIV ID="' + menu_id + '" CLASS="popup" DIR="ltr">');
+         else
+            {
+               menu = document.createElement("div");
+               menu.setAttribute("id",    menu_id);
+               menu.setAttribute("class", "popup");
+               menu.setAttribute("dir",   "ltr");
+            }
+         document.body.appendChild(menu);
+
+         u = user_menus[menu_id];
+
+         pc = popup_code.replace('$_mi_view_profile', u[0] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_view_profile',      u[1]);
+         pc = pc.replace('$_mi_send_pm',        u[2] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_send_pm',           u[3]);
+         pc = pc.replace('$_mi_user_email',     u[4] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_email',        u[5]);
+         pc = pc.replace('$_mi_user_homepage',  u[6] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_homepage',     u[7]);
+         pc = pc.replace('$_mi_user_aim',       u[8] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_aim',          u[9]);
+         pc = pc.replace('$_mi_user_icq',      u[10] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_icq',         u[11]);
+         pc = pc.replace('$_mi_user_msnm',     u[12] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_msnm',        u[13]);
+         pc = pc.replace('$_mi_user_ym',       u[14] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_ym',          u[15]);
+         pc = pc.replace('$_mi_add_to_mana',   u[16] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_add_to_mana',      u[17]);
+
+         menu.innerHTML = pc;
+      }
+
+   if (active_menu != null)
+      active_menu.style.display = "none";
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Apply();
+
+   dims       = window_dims();
+   menu_pos   = get_obj_pos(obj, 0, 0, dims);
+   menu_pos_x = menu_pos[0];
+   menu_pos_y = menu_pos[1] + dims["scroll_top2"];
+
+   if (active_link != null)
+      active_link.className = active_link_class;
+   active_link        = obj;
+   active_link_class  = active_link.className;
+   obj.className      = "userselected";
+   obj.blur();
+   menu.style.display = "block";
+   menu_left          = menu_pos_x;
+   menu_top           = menu_pos_y + obj.offsetHeight;
+
+   if (dims["window_width"] < (menu_left + menu.offsetWidth + horizontal_shift))
+      menu_left = menu_pos_x - menu.offsetWidth;
+
+   if (menu_top + menu.offsetHeight + vertical_shift - dims["window_height"] > dims["scroll_top"])
+      menu_top = menu_pos_y - menu.offsetHeight;
+
+   menu.style.left = (menu_left + horizontal_shift) + "px";
+   menu.style.top  = (menu_top + vertical_shift) + "px";
+   active_menu     = menu;
+
+   if (browser_type == "MSIE")
+      window.event.returnValue = false;
+   else
+      event.preventDefault();
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Play();
+}
+
+
+function hide_menu(event)
+{
+   if (browser_type == "MSIE")
+      var tag_name = window.event.srcElement.tagName;
+   else
+      {
+         var tag_name = event.target.tagName;
+         if (!tag_name)
+            var tag_name = event.target.parentNode.tagName;
+      }
+
+   if (active_menu != null && tag_name.toLowerCase() != "a")
+      {
+         active_link.className     = active_link_class;
+         active_menu.style.display = "none";
+      }
+}
+
+</script>
+
+
+
+</head>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)">
+<html><body class="body" onload="more_init()" onmousedown="hide_menu(event)"></p>
+<p align="center">
+<iframe src="https://web.archive.org/web/20060629000333if_/http://www.stevesforums.com/banner.htm" align="center" width="100%" height="35%" frameborder="no" border="no" framespacing="no" scrolling="no" noresize name="I1"></iframe>
+
+<html>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)">
+<html>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)"></p>
+<table width="100%" border="0" dir="ltr">
+<tr>
+   <td class="clean" valign="top"><a href="https://web.archive.org/web/20060629000333/http://www.steves-digicams.com/"><img src="https://web.archive.org/web/20060629000333im_/http://www.stevesforums.com/forums/images/wowbb_logo.gif" border="0" alt="Steves Forums Home"></a></td>
+   <td class="clean" align="right" valign="bottom">
+
+	<p><form name="search_form" method="get" action="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/search.php">
+<input type="hidden" name="s" value="">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+<td class="clean"><input class="textbox" type="text" name="q" size="12" value=""></td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="javascript: document.search_form.s.value='1'; document.search_form.submit();" onmouseover="window.status=''; return true;" onmouseout="window.status=''; return true;">Search</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp; &nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/view_user.php?list=1">Members</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/calendar.php">Calendar</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/help.php">Help</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums">Home</a></td><td class="clean">&nbsp;</td>
+</tr>
+<tr>
+   <td class="clean" colspan="17" dir="ltr"><input type="checkbox" name="by_username" value="1"> Search by username
+<!--WowBB separator--></td>
+</tr></table>
+</form>
+<span dir="ltr">Not logged in - <a class="nummessages" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/login.php">Login</a> | <a class="nummessages" href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/login.php?register=1">Register</a>&nbsp;</span></td>
+</tr>
+<tr>
+   <td class="clean" colspan="2"><div class="currentlocation" dir="ltr"></div></td>
+</tr>
+</table>
+<br>
+<div class="statusmessage" dir="ltr"></div>
+<center>
+<table width="600" cellpadding="0" cellspacing="0" border="1" dir="ltr">
+<tr>
+   <td class="titlebar" dir="ltr">Message</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table width="100%" cellpadding="5" border="0">
+   <tr><td class="clean" align="center">Sorry, you do not have permission to download this attachment in this forum. You may probably perform this action after you <a href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/login.php">login</a>. If you are not a member, you can register <a href="https://web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/login.php?register=1">here</a>. If you are already logged in then the administrator of the board does not allow this action. Should you have any questions, please contact <a href="https://web.archive.org/web/20060629000333/mailto:steve@steves-digicams.com">steve@steves-digicams.com</a>.<br><br></td></tr>
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<!--WowBB separator-->
+<noscript>
+<center><i>Parts of this bulletin board may not function unless you enable JavaScript (also called Active Scripting) in your browser.</i></center>
+</noscript>
+<br>
+</p>
+<div class="statusline" dir="ltr">
+
+<br>Powered by <a class="nummessages" href="https://web.archive.org/web/20060629000333/http://www.wowbb.com/" title="WowBB Forum Software" target="_blank">WowBB 1.65</a> - Copyright &copy; 2003-2005 Aycan Gulez<br>Page processed in 0.0789 seconds (3% database + 97% PHP). 4 queries executed.
+</div>
+
+
+
+</body>
+
+<!-- Mirrored from web.archive.org/web/20060629000333/http://www.stevesforums.com/forums/attachment.php?id=11413 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Apr 2026 06:15:29 GMT -->
+</html>
+
+<!--WowBB separator--><!--
+     FILE ARCHIVED ON 00:03:33 Jun 29, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:10:04 Apr 15, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 0.33
+  captures_list: 0.519
+  exclusion.robots: 0.015
+  exclusion.robots.policy: 0.006
+  esindex: 0.009
+  cdx.remote: 10.868
+  LoadShardBlock: 91.078 (3)
+  PetaboxLoader3.datanode: 67.015 (4)
+  PetaboxLoader3.resolve: 773.243 (2)
+  load_resource: 824.16
+-->

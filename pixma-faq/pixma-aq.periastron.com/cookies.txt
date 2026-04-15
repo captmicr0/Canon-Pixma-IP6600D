@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+web.archive.org	TRUE	/	FALSE	1999999999	wb-p-SERVER	wwwb-app248
+www.hugedomains.com	TRUE	/	FALSE	1999999999	site_version_phase	108
+www.hugedomains.com	TRUE	/	FALSE	1999999999	site_version	HDv3
+web-static.archive.org	TRUE	/	FALSE	1999999999	wb-static-SERVER	wwwb-app259
+.archive.org	TRUE	/	FALSE	1999999999	PHPSESSID	3brb319skshhd1lssqiik5g2h3
+.archive.org	TRUE	/	FALSE	1999999999	donation-identifier	3b458fc2b733b5ae67d21eeda275b30f
+

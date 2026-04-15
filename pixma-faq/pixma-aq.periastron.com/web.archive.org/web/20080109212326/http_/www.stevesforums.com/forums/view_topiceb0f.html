@@ -1,0 +1,1282 @@
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/bundle-playbackffba.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/wombat9b8c.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="../../../../../../web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;jump_to=245269","20080109212326","../../../../../index.html","web","../../../../../../web-static.archive.org/_static/index.html",
+	      "1199913806");
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../../../web-static.archive.org/_static/css/banner-styles074f.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="../../../../../../web-static.archive.org/_static/css/iconochive29a7.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<p align="center">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&forum_id=40&jump_to=245269 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Apr 2026 06:15:29 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title dir="ltr">CD/DVD printing issues (ip4000, ip5000 etc.) - Photo Inkjet - Printers - Steves-digicams.com Forums</title>
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20080109212326cs_/http://www.stevesforums.com/forums/themes/shades/style_sheet.css">
+<script type="text/javascript">
+function suppress_errors()
+{
+   return true;
+}
+window.onerror = suppress_errors;
+var browser_type;
+var browser_version;
+var cookie_params = new Array();
+var today         = new Date();
+function get_cookie()
+{
+   var cookies     = document.cookie.split("; ");
+   var num_cookies = cookies.length;
+   var i;
+   var parts;
+   cookie_params[2] = "none";
+
+   for (i = 0; i < num_cookies; i++)
+      {
+         parts = cookies[i].split("=");
+         if (parts[0] == "wowbb")
+            {
+               cookie_values = unescape(parts[1]);
+               cookie_params = cookie_values.split("||");
+               return;
+            }
+      }
+}
+
+
+function set_cookie()
+{
+   var cookie_expires = today.toUTCString(today.setSeconds(157680000));
+   var cookie_value   = escape(cookie_params.join("||"));
+
+   document.cookie    = "wowbb=" + cookie_value + "; expires=" + cookie_expires +
+                        "; domain=.forums.steves-digicams.com; path=/forums";
+}
+
+
+navigator.userAgent.indexOf("MSIE") != -1 ? browser_type = "MSIE" : browser_type = "Netscape";
+if (browser_type == "MSIE")
+   {
+      browser_version = navigator.userAgent.substr(navigator.userAgent.indexOf("MSIE") + 5, 1);
+      if (navigator.userAgent.indexOf("Mac_PowerPC") != -1)
+         browser_version = "Mac";
+      if (browser_version.substr(0, 1) == 4)
+         browser_type = "MSIE4";
+   }
+if (navigator.userAgent.indexOf("Gecko") != -1)
+   browser_type = "Gecko";
+
+get_cookie();
+cookie_params[2] = -today.getTimezoneOffset();
+set_cookie();
+
+function more_init()
+{
+
+}
+
+var active_menu;
+var active_link;
+var active_link_class;
+
+
+function get_element(id)
+{
+   if (browser_type == "MSIE4")
+      return document.all[id];
+   else
+      return document.getElementById(id);
+}
+
+
+function window_dims()
+{
+   var dims = new Array("window_width", "window_height", "scroll_top", "scroll_top2");
+   if (browser_type == "MSIE")
+      {
+         dims["window_width"]  = document.body.clientWidth;
+         dims["window_height"] = document.body.clientHeight;
+         dims["scroll_top"]    = document.body.scrollTop;
+         dims["scroll_top2"]   = dims["scroll_top"];
+      }
+   else
+      {
+         dims["window_width"]  = window.innerWidth;
+         dims["window_height"] = window.innerHeight;
+         dims["scroll_top"]    = window.scrollY;
+         dims["scroll_top2"]   = 0;
+      }
+
+   return dims;
+}
+
+
+function get_obj_pos(obj, obj_pos_x, obj_pos_y, dims)
+{
+   x = obj_pos_x + obj.offsetLeft;
+   y = obj_pos_y + obj.offsetTop;
+   if (obj.offsetParent != null)
+      {
+         browser_type == "MSIE" ? dims["scroll_top"] = obj.offsetParent.scrollTop : dims["scroll_top"] = 0;
+         get_obj_pos(obj.offsetParent, x, y - dims["scroll_top"], dims);
+      }
+   return new Array(x, y);
+}
+
+
+function show_menu(event, obj, menu_id)
+{
+   var horizontal_shift = 20;
+   var vertical_shift   = 2;
+
+   if (browser_type == "Netscape" || browser_version == "Mac" || browser_version == "4")
+      return;
+
+   var menu = get_element(menu_id);
+   var pc;
+
+   if (menu == null)
+      {
+         if (browser_type == "MSIE")
+            menu = document.createElement('<DIV ID="' + menu_id + '" CLASS="popup" DIR="ltr">');
+         else
+            {
+               menu = document.createElement("div");
+               menu.setAttribute("id",    menu_id);
+               menu.setAttribute("class", "popup");
+               menu.setAttribute("dir",   "ltr");
+            }
+         document.body.appendChild(menu);
+
+         u = user_menus[menu_id];
+
+         pc = popup_code.replace('$_mi_view_profile', u[0] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_view_profile',      u[1]);
+         pc = pc.replace('$_mi_send_pm',        u[2] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_send_pm',           u[3]);
+         pc = pc.replace('$_mi_user_email',     u[4] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_email',        u[5]);
+         pc = pc.replace('$_mi_user_homepage',  u[6] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_homepage',     u[7]);
+         pc = pc.replace('$_mi_user_aim',       u[8] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_aim',          u[9]);
+         pc = pc.replace('$_mi_user_icq',      u[10] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_icq',         u[11]);
+         pc = pc.replace('$_mi_user_msnm',     u[12] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_msnm',        u[13]);
+         pc = pc.replace('$_mi_user_ym',       u[14] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_user_ym',          u[15]);
+         pc = pc.replace('$_mi_add_to_mana',   u[16] == "i" ? "menuitem" : "menuitemdisabled");
+         pc = pc.replace('$_add_to_mana',      u[17]);
+
+         menu.innerHTML = pc;
+      }
+
+   if (active_menu != null)
+      active_menu.style.display = "none";
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Apply();
+
+   dims       = window_dims();
+   menu_pos   = get_obj_pos(obj, 0, 0, dims);
+   menu_pos_x = menu_pos[0];
+   menu_pos_y = menu_pos[1] + dims["scroll_top2"];
+
+   if (active_link != null)
+      active_link.className = active_link_class;
+   active_link        = obj;
+   active_link_class  = active_link.className;
+   obj.className      = "userselected";
+   obj.blur();
+   menu.style.display = "block";
+   menu_left          = menu_pos_x;
+   menu_top           = menu_pos_y + obj.offsetHeight;
+
+   if (dims["window_width"] < (menu_left + menu.offsetWidth + horizontal_shift))
+      menu_left = menu_pos_x - menu.offsetWidth;
+
+   if (menu_top + menu.offsetHeight + vertical_shift - dims["window_height"] > dims["scroll_top"])
+      menu_top = menu_pos_y - menu.offsetHeight;
+
+   menu.style.left = (menu_left + horizontal_shift) + "px";
+   menu.style.top  = (menu_top + vertical_shift) + "px";
+   active_menu     = menu;
+
+   if (browser_type == "MSIE")
+      window.event.returnValue = false;
+   else
+      event.preventDefault();
+
+   if (browser_type == "MSIE" && browser_version >= "6")
+      menu.filters[0].Play();
+}
+
+
+function hide_menu(event)
+{
+   if (browser_type == "MSIE")
+      var tag_name = window.event.srcElement.tagName;
+   else
+      {
+         var tag_name = event.target.tagName;
+         if (!tag_name)
+            var tag_name = event.target.parentNode.tagName;
+      }
+
+   if (active_menu != null && tag_name.toLowerCase() != "a")
+      {
+         active_link.className     = active_link_class;
+         active_menu.style.display = "none";
+      }
+}
+
+</script>
+
+
+
+<script type="text/javascript" src="https://web.archive.org/web/20080109212326js_/http://www.stevesforums.com/forums/themes/wgui.js"></script>
+</head>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)">
+<html><body class="body" onload="more_init()" onmousedown="hide_menu(event)"></p>
+<p align="center">
+<iframe src="https://web.archive.org/web/20080109212326if_/http://www.steves-digicams.com/rosus.asp" width="489" height="88" align="middle" scrolling="no" framespacing="0" frameborder="0"></iframe>&nbsp;</p>
+
+<body bgcolor="#000000" text="#ffffff" link="#ff0000" vlink="#ffff00" stats="1"><!-- Start of DeepMetrix (.NET) StatScript -->
+
+<script language="javascript">
+
+ 
+
+var DMNETdomain = "";
+
+var DMNETpage = window.location;
+
+var DMNETversion = "86";
+
+var DMNETsendTo = "http://web.archive.org/web/20080109212326/http://www.steves-digicams.com/dm.gif?";
+
+var DMNETsession;
+
+ 
+
+function dmneterr(){return true;}
+
+ 
+
+window.onerror=dmneterr;
+
+var s = new Date();
+
+ 
+
+if (navigator.userAgent.indexOf('Mac') >= 0 && s.getTimezoneOffset() >= 720)
+
+  s.setTime (s.getTime() - 1440*60*1000);
+
+ 
+
+var dmnetURL = location.protocol + DMNETsendTo+"v="+DMNETversion+"&vst=1";
+
+var dmnetCookieString = document.cookie.toString();
+
+ 
+
+if(dmnetCookieString.indexOf("_dmnid") == -1)
+
+  {
+
+    DMNETsession = parseInt( Math.random()*1000000 ) + "_" + s.getTime();
+
+    var domStr = "";
+
+    if(DMNETdomain != "")
+
+    {
+
+      domStr = "domain="+ DMNETdomain +";";
+
+    }
+
+    document.cookie = "_dmnid=" + DMNETsession + ";expires=Mon, 31-Dec-2008 00:00:00 GMT;"+domStr+"path=/;";
+
+  }
+
+dmnetCookieString = document.cookie.toString();
+
+if(dmnetCookieString.indexOf('_dmnid') == -1)
+
+  {
+
+    DMNETsession = "";
+
+  }
+
+else
+
+  {
+
+    if(dmnetCookieString.indexOf(';') == -1)
+
+      dmnetCookieString = dmnetCookieString.replace(/_dm/g, ';_dm');
+
+ 
+
+    var start = dmnetCookieString.indexOf("_dmnid=") + 7;
+
+    var end = dmnetCookieString.indexOf(";",start);
+
+ 
+
+    if (end == -1)
+
+      end = dmnetCookieString.length;
+
+    DMNETsession = unescape(dmnetCookieString.substring(start,end));
+
+  }
+
+dmnetURL += "&id="+DMNETsession+"&url="+escape(DMNETpage) + "&ref="+escape(document.referrer)+"&lng=" + ((!document.all ||  navigator.userAgent.match('Opera')) ? navigator.language : navigator.userLanguage) + "&tz=" + (Math.round(new Date('dec 1, 2002').getTimezoneOffset()/60)*-1);
+
+if(screen)
+
+  dmnetURL += "&scr=" + escape( screen.width + "x" + screen.height + " " + screen.colorDepth + "bpp" );
+
+ 
+
+dmnetURL += "&rnd=" + new Date().getTime();
+
+ 
+
+if(document.layers)
+
+{
+
+  document.write("<la"+"yer name=\"DMStats\" visibility=hide><img src=\""+dmnetURL+"\" height=1 width=1></la"+"yer>");
+
+}
+
+else
+
+{
+
+  document.write("<di"+"v id=\"DMStats\" STYLE=\"position:absolute;visibility:hidden;\"><img src=\""+dmnetURL+"\" height=1 width=1></di"+"v>");
+
+}
+
+ 
+
+</script>
+
+<!-- End of DeepMetrix (.NET) StatScript -->
+
+
+
+<html>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)">
+<html>
+<body class="body" onload="more_init()" onmousedown="hide_menu(event)"></p>
+<table width="100%" border="0" dir="ltr">
+<tr>
+   <td class="clean" valign="top"><a href="https://web.archive.org/web/20080109212326/http://www.steves-digicams.com/"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/wowbb_logo.gif" border="0" alt="Steves-digicams.com Forums Home"></a></td>
+   <td class="clean" align="right" valign="bottom">
+
+	<p><form name="search_form" method="get" action="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/search.php">
+<input type="hidden" name="s" value="">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+<td class="clean"><input class="textbox" type="text" name="q" size="12" value=""></td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="javascript: document.search_form.s.value='1'; document.search_form.submit();" onmouseover="window.status=''; return true;" onmouseout="window.status=''; return true;">Search</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp; &nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?list=1">Members</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/calendar.php">Calendar</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/help.php">Help</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums">Home</a></td><td class="clean">&nbsp;</td>
+</tr>
+<tr>
+   <td class="clean" colspan="17" dir="ltr"><input type="checkbox" name="by_username" value="1"> Search by username
+<!--WowBB separator--></td>
+</tr></table>
+</form>
+<span dir="ltr">Not logged in - <a class="nummessages" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/login.php">Login</a> | <a class="nummessages" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/login.php?register=1">Register</a>&nbsp;</span></td>
+</tr>
+<tr>
+   <td class="clean" colspan="2"><div class="currentlocation" dir="ltr"><a class="currentlocation" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/">Steves-digicams.com Forums</a> &gt; <a class="currentlocation" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_category.php?id=39">Printers</a> &gt; <a class="currentlocation" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_forum.php?id=40">Photo Inkjet</a> &gt; CD/DVD printing issues (ip4000, ip5000 etc.)</div></td>
+</tr>
+</table>
+<br>
+<div class="statusmessage" dir="ltr"></div>
+<center>
+<table width="98%" cellpadding="0" cellspacing="0" border="1" dir="ltr">
+<tr>
+   <td class="titlebar" dir="ltr">CD/DVD printing issues (ip4000, ip5000 etc.)</td>
+</tr>
+<tr>
+   <td class="clean">
+   <table width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+      <td class="inside" width="100%" dir="ltr">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+   <td class="toprow" align="left">&nbsp;Moderated by: <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=1" onclick="show_menu(event, this, 'menu1')">steve</a>, <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=3151" onclick="show_menu(event, this, 'menu3151')">Kalypso</a>, <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=8893" onclick="show_menu(event, this, 'menu8893')">JimC</a></td>
+   <td class="toprow" align="center"><b>&nbsp;</b></td>
+   <td class="toprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/new_topic.php?forum_id=40">New Topic</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;print=1">Print</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" border="0">
+<tr><th>Author</th><th colspan="2">Post</th></tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')">racerx2oo3</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Thu Feb 3rd, 2005 06:43 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=244628%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p244628"></a>Yeah, I have to admit that I was a bit confused by some of the earlier posts describing the bypass methods.&nbsp; But after visiting the Canon website and checking out how the Pixma's print&nbsp;over at Best Buy, I think I have a clearer picture.&nbsp; <br/>
+<br/>
+Since the US Pixma's don't support the CD media tray, I'm guessing that using the bypass method in conjuntion with the registry setting to allow for CD media type (to achieve the proper printhead height) is going to be the best bet.&nbsp; <br/>
+<br/>
+If I end up buying the Pixma IP5000, I may look into fabricating a polycarbonate tray to be used in the CD tray with the bypass method.&nbsp; This way I could radius the front edge to make slipping it under the rollers easier.&nbsp; <br/>
+<br/>
+&nbsp;<br/>
+<br/>
+Racer X<br/>
+<br/>
+&nbsp;<br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=31924" onclick="show_menu(event, this, 'menu31924')">cdtray3000</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Fri Jan 28th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">2</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Fri Feb 4th, 2005 06:22 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245022%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p245022"></a>BTW, anyone (U.S. only) thinking of buying a Canon Pixma printer, be sure to check the Canon website.&nbsp; The U.S. site has a rebate of <b>$20</b> for a "1000 series" printer purchase or <b>$70</b> for a printer &amp;&nbsp;"PowerShot" camera purchases, made between February 1st and May 31st.<br/>
+<br/>
+As for the "U.S.-only rebate"&nbsp;part, I'm thinking they're trying to make up for lost sales over the U.S. CD-tray affair.&nbsp; <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/icon_rolleyes.gif" alt=":roll:">&nbsp; Talk about about&nbsp;"a dark cloud&nbsp;with a&nbsp;silver lining" (especially with getting these by-pass methods to make it work anyway)!&nbsp; <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/icon_lol.gif" alt=":-)"><br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32303" onclick="show_menu(event, this, 'menu32303')">chenchijung</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Wed Feb 2nd, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">1</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Fri Feb 4th, 2005 08:17 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245064%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p245064"></a>No. The rebate is only limit in iP3000, iP4000, iP4000R, iP5000 and iP5000. 1000 series is not included. The rebate is between Feb. 1 to May 31.<br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')">racerx2oo3</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Fri Feb 4th, 2005 05:10 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245251%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p245251"></a>I suspect what CDtray3000 meant was that the rebate applies to IP x000 models.&nbsp; <p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')">racerx2oo3</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Fri Feb 4th, 2005 05:37 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245269%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p245269"></a>So I'm sitting here at my desk, and right here on top of all the other various junk, I've got a dvd in a slim line case.&nbsp; So of course now I'm wondering if a slimline cd case flipped open could be used as a CD tray in a Pixma, with one of the bypass methods?&nbsp; I'm suspecting the cd case is a bit narrower than the Canon CD tray because the CD case is only as wide as the actual CD, whereas from this image below the CD Tray is definately a bit wider.&nbsp; <br/>
+<br/>
+The big advantage of using a slimline case is that the CD/DVD is held firmly in a way that makes it nearly impossible to scratch the bottom surface of the disk.<br/>
+<br/>
+<img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/attachment.php?id=5242" border="0" alt=""><br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32511" onclick="show_menu(event, this, 'menu32511')">mac_yoda</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Sat Feb 5th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">25</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Sat Feb 5th, 2005 07:46 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245681%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p245681"></a>OK here is a company that is based in the USA but also sells in the UK and Australia. The product description says it prints directly to DVDs, notice the upper right hand corner of the web page its eXpansys USA just like the URL. <br/>
+<br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.expansys-usa.com/product.asp?code=CAN_PIXMA_IP4000" target="_blank">http://www.expansys-usa.com/product.asp?code=CAN_PIXMA_IP4000</a><br/>
+<br/>
+They are probably selling the Ausi version of something but maybe call them to order and make sure the specs are correct.   <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/tongue.gif" alt=":blah:"><br/>
+<br/>
+I want the MP780 <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/bash.gif" alt=":mad:"><br/>
+<br/>
+Here is a place in Canada that has it and it says dirrect printing  <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/camera.gif" alt=":|">   ...<br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.frontierpc.com/ProductDetail.aspx?productID=950014334" target="_blank">http://www.frontierpc.com/ProductDetail.aspx?productID=950014334</a><br/>
+<br/>
+Strange thing though the iP4000 and 3000 did not say anything about DVD printing.<br/>
+<br/>
+iii WoW !!! Here is the cheapest seller of the MP780 on the web, seem to be a USA company and it says it does direct DVD printing !!!   <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/jumping-smiley-004.gif" alt=":D"><br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.buy.com/retail/product.asp?sku=10380854&amp;loc=101&amp;dcaid=1688" target="_blank">http://www.buy.com/retail/product.asp?sku=10380854&loc;=101&dcaid;=1688</a><br/>
+<br/>
+Then I check their ip4000 and it does not say anything about DVD printing, so maybe that is the trick Canon put it on the expensive device in the USA to make more money off of us !!!   <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/speechless-smiley-021.gif" alt=":idea:"><br/>
+<br/>
+The 4000 was in the clearance section by the way.<p></p><p><i>Last edited on Sat Feb 5th, 2005 08:51 am by <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32511" onclick="show_menu(event, this, 'menu32511')">mac_yoda</a></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32147" onclick="show_menu(event, this, 'menu32147')">dishinit</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">53</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Sat Feb 5th, 2005 09:44 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245706%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p245706"></a>Look here for $249.00 price on same Canon Multi Function:<br/>
+<br/>
+<a href="https://web.archive.org/web/20080109212326/http://instorespecials.staples.com/staples/default.aspx?action=browsepagedetail&amp;storeid=2278873&amp;rapid=107000&amp;pagenumber=8&amp;listingid=-2097328693&amp;ref=%2fstaples%2fdefault.aspx%3faction%3dbrowsepagesingle%26storeid%3d2278814%26rapid%3d107000%26pagenumber%3d8" target="_blank">http://instorespecials.staples.com/staples/default.aspx?action=browsepagedetail&amp;storeid=2278873&amp;rapid=107000&amp;pagenumber=8&amp;listingid=-2097328693&amp;ref=%2fstaples%2fdefault.aspx%3faction%3dbrowsepagesingle%26storeid%3d2278814%26rapid%3d107000%26pagenumber%3d8</a><br/>
+<br/>
+I do not believe (and this has been comfirmed by other posters) that any Canon Printers, made for sale in USA or Canada have CD/DVD direct printing capabilities. This is true even though some product descriptions from some distributors of Canon&nbsp;USA models allude to CD/DVD printing capabilities. They have inadvertantly copied European product descriptions, which does not reflect the disabeling of this feature in the USA version .<br/>
+<br/>
+Only Euorpean models have this capability, which reduce your selections down to companies like Expansys (reported to be a very good supplier) which will import &amp; sell you a UK version with CD/DVD Direct printing..<br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=869" onclick="show_menu(event, this, 'menu869')">arklab</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Wed Jul 3rd, 2002</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">51</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Sat Feb 5th, 2005 01:49 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=245758%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p245758"></a>I am another happy Expansys user (UK iP3000).<br/>
+Before I found them I discovered three stores in England which DO SHIP TO USA!  <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/sport-smiley-018.gif" alt=":-D"><br/>
+They are:<br/>
+<a href="https://web.archive.org/web/20080109212326/http://canon.t4cameras.co.uk/" target="_blank">http://canon.t4cameras.co.uk/</a><br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.digitalfirst.co.uk/" target="_blank">http://www.digitalfirst.co.uk/</a><br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.askdirect.co.uk/uview?call=ask.Page&amp;page=home" target="_blank">http://www.askdirect.co.uk/uview?call=ask.Page&page;=home</a><br/>
+<br/>
+Also in New Zeland:<br/>
+<a href="https://web.archive.org/web/20080109212326/http://www.dse.co.nz/cgi-bin/dse.storefront/4204cf1706a775a42740c0a87f9906ea" target="_blank">http://www.dse.co.nz/cgi-bin/dse.storefront/4204cf1706a775a42740c0a87f9906ea</a><br/>
+<br/>
+I'm sure there are more in both countries, and in Australia and other Euorpean nations as well.<br/>
+If you read/writeother languages be sure to check them out as well.<br/>
+<br/>
+<b>BUT be sure you are calm when checking</b>   <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/wink.gif" alt=";)"><br/>
+<br/>
+My order to T4 Cameras took almost two months to arrive, and I had to refuse delivery as so much time had passed the order had been cancled!<br/>
+The other fly in the ointment is cost.<br/>
+One company was asking almost 100 british pounds ... and that was just the SHIPPING!  <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/sprachlos020.gif" alt=":shock:"><br/>
+<br/>
+You get to know how to use the online curency converters, too.<br/>
+<br/>
+But if you really want the best, and don't want it crippled, it can all be worth it.<br/>
+<br/>
+Heck, the darn thing will last through several computers!<br/>
+And to put things in perspective, how much does just a retail copy of M$ Windows XP cost today - then add in Office, and - and - and ...  <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/BANGHEAD2.gif" alt=":angry:"><p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=29421" onclick="show_menu(event, this, 'menu29421')">vandyo</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Sun Jan 2nd, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Sun Feb 6th, 2005 12:49 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=246044%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p246044"></a>if you can afford it, arklab is right.&nbsp; Buying the UK model is the way to go and expansys is the co to use.&nbsp; I bought a 4000 for $174 &amp; change +5 for S&amp;H.&nbsp; Had a screwup but this co bent over backwards to take care of me &amp; quickly.<br/>
+<br/>
+If you want to crack this &amp; go with the cdr tray, build your tray using the photo on page 7 of this thread.&nbsp; Be sure to do it as best you can, &amp; if you need conformation&nbsp; on any measurement let me know here.&nbsp; Be sure to include the 4 reflectors.&nbsp; 3 at the front end of the tray &amp; one in the area where the cd-dvd goes.&nbsp; The last one I believe tells the sys that a disc is in the tray &amp; to continue on with printing.&nbsp; The other 3 I believe are for verifying/positioning the tray.<br/>
+<br/>
+If your to the point where you are being asked by the software to insert the tray with a disc, then do so.&nbsp; BUT DO NOT INSERT IT UNTIL REQUESTED TO OR IT WILL PROBABLY BE REJECTED &amp; PUSHED OUT.&nbsp; Once inserted, be sure to line up the arrow on the right side of the tray with the one on the inner tray door.&nbsp; This positions the tray properly (roughtly ??).&nbsp; After doing this, you click ok to print, &amp; the printer sucks the tray in, whirls &amp; buzzes, moves the tray in &amp; out short distances, &amp; finally it disappears all the way in &amp; the printing starts &amp; is done in about&nbsp; 20 or so seconds.<br/>
+<br/>
+If I can help anyone on this, let me know &amp; I will do what ever I can.&nbsp; I also would suggest getting the CD-Label Print software from the site listed in this thread.&nbsp; I'm sure the Easy Print software would do the job, but to solve a problem like this you need to take out as many variables as you can.&nbsp; If you don't like the supplied stuff, load something you like in after you have it working.&nbsp; Godd luck !!<br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32495" onclick="show_menu(event, this, 'menu32495')">ehalepdp</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Fri Feb 4th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">1</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Sun Feb 6th, 2005 06:56 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=246455%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p246455"></a>Thanks to all who have pursued this CD Print workaround and options since (it seems Oct. 2004).&nbsp; Your input has been very valuable and has saved me lots of time.&nbsp; I'm sure you are not giving up either from what I see.<br/>
+<br/>
+I just purchased the Ip3000 (did not want Epson for sure) this past week mainly for CD Print possibility which has been achieved thru your efforts using DIY...... 100 lb card stock with a 24lb backer sheet.&nbsp; Works fine, if you remember to use 'Envelope Media' without actually letting the advisor change to envelope.&nbsp; The cd "pusher, lowering the inner tray, all help make it work without too much pain, just a little extra time.<br/>
+<br/>
+With the rebate at Microcenter going on.&nbsp; I got an instant $20 from them and a mail rebate in for $20 is in process.&nbsp; $59.99 is really a bargin now, for this printer.<br/>
+<br/>
+Perhaps this will resolve itself after 1 year like the satelite Dish which was only available by RCA for the first year a while back.<br/>
+<br/>
+Again.......... THANK YOU ALL!!!!!<img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/cool.gif" alt=":cool:"><br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32665" onclick="show_menu(event, this, 'menu32665')">MacBandit</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Feb 7th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">7</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Mon Feb 7th, 2005 08:01 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=246890%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p246890"></a><a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=869" onclick="show_menu(event, this, 'menu869')">arklab</a> wrote:<br/>
+<q>I am another happy Expansys user (UK iP3000).<br/>
+</q><br/>
+<br/>
+Did you ever get your US power supply into the printer?  Also if you did where did you get the US power supply?<br/>
+<br/>
+Can I assume the UK printer came with the CD tray?<br/>
+<br/>
+I am on the verge of ordering an iP5000 and am just waiting to see how your experience went.<br/>
+<br/>
+Thank  you<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=21629" onclick="show_menu(event, this, 'menu21629')">Azzkikr1337</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Sep 13th, 2004</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">38</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Mon Feb 7th, 2005 08:17 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=246893%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p246893"></a>The power supply can be purchased through the canon sales department (1-800-OK-CANON). It's very easy to swap out. I swapped the power from my Hong Kong edition (IP5000)&nbsp;with USA power and it's working flawlessly.<br/>
+<br/>
+Oh, I did request someone to carry it back for me&nbsp;and only cost $200 USD <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/tongue.gif" alt=":blah:"><br/>
+<p></p><p><i>Last edited on Mon Feb 7th, 2005 08:18 am by <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=21629" onclick="show_menu(event, this, 'menu21629')">Azzkikr1337</a></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')">racerx2oo3</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Mon Feb 7th, 2005 08:31 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247151%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p247151"></a>Ok, so now that it has pretty well been established that there is enough dissimilarity between the non-North American printers and the US versions that&nbsp;it will be next to impossible to convert a US printer into one which will print CD/DVD's&nbsp;in the same manner that the Non-US printers use, I suggest that those of us who have&nbsp;US printers use this thread to discuss any&nbsp;experiences and or tips and tweaks using one of the bypass methods to print on&nbsp;CD/DVD's.<br/>
+<br/>
+I expect to by buying a IP5000 in the coming months and will be interested in what others have to say, additionally, when I recieve my unit I'll be sure to post anything I discover on this subject.<br/>
+<br/>
+Racer X<br/>
+<br/>
+&nbsp;<br/>
+<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32718" onclick="show_menu(event, this, 'menu32718')">jjay90049</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Feb 7th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">4</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Mon Feb 7th, 2005 10:32 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247231%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p247231"></a>Hi all, i am a huge canon fan. i also have a good engineering background and like you all would love to see the pixma print on <a href="#" target="_blank">cd's</a> in America. it pains me that the worlds leading market wouldn't be able to enjoy this great feature that the rest of the world can. i use the epson r200, not bad for printing on <a href="#" target="_blank">cd's</a> but as an avid printer user i can tell you that there is no comparison between the r200 and any canon printer, the canon is superior hands down. <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/speechless-smiley-021.gif" alt=":idea:">&nbsp;from reading all the comments here it seems that the main issue is feeding the cd through the printer and having the print heads align correctly so that the end result could be flawless. fabricating the perfect&nbsp;cd tray does not seem to be an issue for me (off the bat) but i would probably have to destroy at least one or maybe two pixma printers to perfect a tray, also i would create a template from photo shop that would begin printing the exact dimensions of a cd once i have established all the necessary parameters. Am i being too optimistic here? who knows, but i am a problem solver and will try and solve this.........it may take me a while to purchase a printer or two but if i am successful, i will post my results immedietly..............actually, the only way for me to pass judgment here is to open, and study the mechanisms within the printer.........wish me luck........will let you know soon......................<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32147" onclick="show_menu(event, this, 'menu32147')">dishinit</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">53</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Tue Feb 8th, 2005 02:21 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247671%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p247671"></a><b><a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32718" onclick="show_menu(event, this, 'menu32718')">jjay90049</a> wrote: </b><q>Hi all, i am a huge canon fan. i also have a good engineering background and like you all would love to see the pixma print on <a href="#" target="_blank">cd's</a> in America. it pains me that the worlds leading market wouldn't be able to enjoy this great feature that the rest of the world can. i use the epson r200, not bad for printing on <a href="#" target="_blank">cd's</a> but as an avid printer user i can tell you that there is no comparison between the r200 and any canon printer, the canon is superior hands down. <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/speechless-smiley-021.gif" alt=":idea:">&nbsp;from reading all the comments here it seems that the main issue is feeding the cd through the printer and having the print heads align correctly so that the end result could be flawless. fabricating the perfect&nbsp;cd tray does not seem to be an issue for me (off the bat) but i would probably have to destroy at least one or maybe two pixma printers to perfect a tray, also i would create a template from photo shop that would begin printing the exact dimensions of a cd once i have established all the necessary parameters. Am i being too optimistic here? who knows, but i am a problem solver and will try and solve this.........it may take me a while to purchase a printer or two but if i am successful, i will post my results immedietly..............actually, the only way for me to pass judgment here is to open, and study the mechanisms within the printer.........wish me luck........will let you know soon......................</q><q>You can get a Canon Pixma iP3000 at NewEgg today for $42.95:</q><q><a href="https://web.archive.org/web/20080109212326/http://www.fatwallet.org/t/18/435132/" target="_blank">http://www.fatwallet.org/t/18/435132/</a></q><q>Just want to help you along in the process!</q><p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32718" onclick="show_menu(event, this, 'menu32718')">jjay90049</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Feb 7th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">4</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Tue Feb 8th, 2005 04:39 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247761%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p247761"></a>Thanks for that, do you know where i can download a version of the "direct print cd" software&nbsp;that comes with the canon printer? (european version)<p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')">racerx2oo3</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Jan 31st, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">10</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Tue Feb 8th, 2005 04:52 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247773%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p247773"></a><a href="https://web.archive.org/web/20080109212326/http://cmtw.canon.com.tw/service/driver2.asp?ProductID1=00000014&amp;ProductID3=00000227" target="_blank">http://cmtw.canon.com.tw/service/driver2.asp?ProductID1=00000014&amp;ProductID3=00000227</a><p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32511" onclick="show_menu(event, this, 'menu32511')">mac_yoda</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Sat Feb 5th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">25</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Tue Feb 8th, 2005 05:29 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247805%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p247805"></a>THIS IS WHAT CANON SAYS:<br/>
+<br/>
+Thank you for contacting Canon product support.<br/>
+<br/>
+Globally, Canon is comprised of many different sales divisions.  Each <br/>
+sales division makes their own business decisions as to the products <br/>
+and<br/>
+features they feel will help them achieve their goals and best suit <br/>
+their market. Canon USA has made the decision not to include the <br/>
+CDR/DVD<br/>
+printing feature on consumer printers sold in this market.<br/>
+<br/>
+Thank you for choosing Canon.<br/>
+<br/>
+Sincerely,<br/>
+<br/>
+DON'T YOU JUST HATE HATE HATE SALES MEN !!!   <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/demon3.gif" alt=":evil:"><p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow1">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=869" onclick="show_menu(event, this, 'menu869')">arklab</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Wed Jul 3rd, 2002</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">51</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Tue Feb 8th, 2005 06:59 pm</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=247847%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow1" colspan="2"><a name="p247847"></a><b><a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32718" onclick="show_menu(event, this, 'menu32718')">jjay90049</a> wrote: </b><q>Thanks for that, do you know where i can download a version of the "direct print cd" software&nbsp;that comes with the canon printer? (european version)</q><br/>
+<br/>
+<br/>
+&nbsp;This is asia, but same software - in english.&nbsp; <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/icon_lol.gif" alt=":-)"><br/>
+<br/>
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32192" onclick="show_menu(event, this, 'menu32192')"><u><font color="#0000ff">racerx2oo3</font></u></a>, I missed your post.<br/>
+<br/>
+<br/>
+<b>IT WILL <u>NOT WORK</u> WITH A US PIXMA, HOWEVER.</b><br/>
+<br/>
+I know - I've got both a UK and US iP3000 side-by-side to see if it would.<br/>
+<br/>
+Major hardware differences, I'm afraid.&nbsp; <img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/cry.gif" alt=":cry:"><br/>
+
+<br/>
+<p></p><p><i>Last edited on Tue Feb 8th, 2005 07:01 pm by <a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=869" onclick="show_menu(event, this, 'menu869')">arklab</a></i></p>
+
+   </td>
+</tr><tr>
+   <td valign="top" width="25%" rowspan="2" class="postrow2">
+<a class="username" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_user.php?id=32718" onclick="show_menu(event, this, 'menu32718')">jjay90049</a><br>Member<br>&nbsp;<br><br>
+<table cellpadding="1" cellspacing="0" border="0">
+   <tr><td class="userinfo" valign="top" align="right">Joined:&nbsp;</td><td class="userinfo">Mon Feb 7th, 2005</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Location:&nbsp;</td><td class="userinfo">&nbsp;</td></tr>
+   <tr><td class="userinfo" valign="top" align="right">Posts:&nbsp;</td><td class="userinfo">4</td></tr>
+
+   <tr><td class="userinfo" valign="top" align="right">Status:&nbsp;</td><td class="userinfo">
+<font color="#888888">Offline</font>
+</td></tr>
+
+</table>
+   </td>
+   <td class="posttoprow" nowrap>&nbsp;Posted: Wed Feb 9th, 2005 04:45 am</td><td class="posttoprow" style="border-right: 1px inset gray" align="right">
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+<td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631&amp;post_id=248188%22e=1">Quote</a></td><td class="clean">&nbsp;</td><td class="clean">&nbsp;</td><td class="clean" nowrap><a class="navbutton" href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/reply.php?topic_id=36631">Reply</a></td><td class="clean">&nbsp;</td>
+</tr></table>
+   </td>
+</tr>
+<tr>
+   <td class="postrow2" colspan="2"><a name="p248188"></a><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/cry.gif" alt=":cry:">&nbsp;aint happening......too many issues, solve one and another arises, it could probably be done in a very "martha stuart" kind of way but its not good enough for me.........i cant believe that i am stuck with the epson r200, its prints well on cd's and dvd's but you can't even compare the detail to a canon when printing on paper, even the speed is an issue, printing in draft mode on the epson is slower than normal mode on the canon..............grrrrrrrrrr<img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/emoticons/BANGHEAD2.gif" alt=":angry:"><p></p><p><i></i></p>
+
+   </td>
+</tr><tr>
+   <td class="buttonrow" colspan="3">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+         <tr><td class="buttonrow"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/spacer.gif" width="1" height="4" alt=""><br>&nbsp;Current time is 09:23 pm</td><td class="buttonrow" align="right"><b>Page:</b> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=1"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/buttons/first_page.gif" border="0" alt="First Page"> </a><a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=8"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/buttons/left_arrow.gif" border="0" alt="Previous Page"></a> &nbsp;... &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=4">4</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=5">5</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=6">6</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=7">7</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=8">8</a> &nbsp;9 &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=10">10</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=11">11</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=12">12</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=13">13</a> &nbsp;<a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=14">14</a>&nbsp; ...&nbsp; <a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=10"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/buttons/right_arrow.gif" border="0" alt="Next Page"> </a><a href="https://web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&amp;forum_id=40&amp;page=78"><img src="https://web.archive.org/web/20080109212326im_/http://www.stevesforums.com/forums/images/buttons/last_page.gif" border="0" alt="Last Page"></a> &nbsp;</td></tr>
+      </table>
+   </td>
+</tr>
+</table>
+      </td>
+   </tr>
+   </table>
+   </td>
+</tr>
+</table>
+</center>
+<!--WowBB separator-->
+<br>
+<table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr>
+
+
+</tr></table>
+</p>
+<noscript>
+<center><i>Parts of this bulletin board may not function unless you enable JavaScript (also called Active Scripting) in your browser.</i></center>
+</noscript>
+<br>
+</p>
+<div class="statusline" dir="ltr">
+<!-- Search Google -->
+<center>
+<form method="get" action="https://web.archive.org/web/20080109212326/http://www.google.com/custom" target="google_window">
+<table bgcolor="#000000">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+
+<label for="sbi" style="display: none">Enter your search terms</label>
+<input type="text" name="q" size="50" maxlength="255" value="" id="sbi"></input>
+<label for="sbb" style="display: none">Submit search form</label>
+<input type="submit" name="sa" value="Google Search" id="sbb"></input>
+<input type="hidden" name="client" value="pub-7345916054725424"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></table>
+</form>
+</center>
+<!-- Search Google -->
+
+<br>Powered by <a class="nummessages" href="https://web.archive.org/web/20080109212326/http://www.wowbb.com/" title="WowBB Forum Software" target="_blank">WowBB 1.7</a> - Copyright &copy; 2003-2006 Aycan Gulez<br>Page processed in 0.5709 seconds (49% database + 51% PHP). 23 queries executed.
+</div>
+
+
+
+
+<body bgcolor="#000000" text="#ffffff" link="#ff0000" vlink="#ffff00" stats="1"><!-- Start of DeepMetrix (.NET) StatScript -->
+
+<script language="javascript">
+
+ 
+
+var DMNETdomain = "";
+
+var DMNETpage = window.location;
+
+var DMNETversion = "86";
+
+var DMNETsendTo = "http://web.archive.org/web/20080109212326/http://www.steves-digicams.com/dm.gif?";
+
+var DMNETsession;
+
+ 
+
+function dmneterr(){return true;}
+
+ 
+
+window.onerror=dmneterr;
+
+var s = new Date();
+
+ 
+
+if (navigator.userAgent.indexOf('Mac') >= 0 && s.getTimezoneOffset() >= 720)
+
+  s.setTime (s.getTime() - 1440*60*1000);
+
+ 
+
+var dmnetURL = location.protocol + DMNETsendTo+"v="+DMNETversion+"&vst=1";
+
+var dmnetCookieString = document.cookie.toString();
+
+ 
+
+if(dmnetCookieString.indexOf("_dmnid") == -1)
+
+  {
+
+    DMNETsession = parseInt( Math.random()*1000000 ) + "_" + s.getTime();
+
+    var domStr = "";
+
+    if(DMNETdomain != "")
+
+    {
+
+      domStr = "domain="+ DMNETdomain +";";
+
+    }
+
+    document.cookie = "_dmnid=" + DMNETsession + ";expires=Mon, 31-Dec-2008 00:00:00 GMT;"+domStr+"path=/;";
+
+  }
+
+dmnetCookieString = document.cookie.toString();
+
+if(dmnetCookieString.indexOf('_dmnid') == -1)
+
+  {
+
+    DMNETsession = "";
+
+  }
+
+else
+
+  {
+
+    if(dmnetCookieString.indexOf(';') == -1)
+
+      dmnetCookieString = dmnetCookieString.replace(/_dm/g, ';_dm');
+
+ 
+
+    var start = dmnetCookieString.indexOf("_dmnid=") + 7;
+
+    var end = dmnetCookieString.indexOf(";",start);
+
+ 
+
+    if (end == -1)
+
+      end = dmnetCookieString.length;
+
+    DMNETsession = unescape(dmnetCookieString.substring(start,end));
+
+  }
+
+dmnetURL += "&id="+DMNETsession+"&url="+escape(DMNETpage) + "&ref="+escape(document.referrer)+"&lng=" + ((!document.all ||  navigator.userAgent.match('Opera')) ? navigator.language : navigator.userLanguage) + "&tz=" + (Math.round(new Date('dec 1, 2002').getTimezoneOffset()/60)*-1);
+
+if(screen)
+
+  dmnetURL += "&scr=" + escape( screen.width + "x" + screen.height + " " + screen.colorDepth + "bpp" );
+
+ 
+
+dmnetURL += "&rnd=" + new Date().getTime();
+
+ 
+
+if(document.layers)
+
+{
+
+  document.write("<la"+"yer name=\"DMStats\" visibility=hide><img src=\""+dmnetURL+"\" height=1 width=1></la"+"yer>");
+
+}
+
+else
+
+{
+
+  document.write("<di"+"v id=\"DMStats\" STYLE=\"position:absolute;visibility:hidden;\"><img src=\""+dmnetURL+"\" height=1 width=1></di"+"v>");
+
+}
+
+ 
+
+</script>
+
+<!-- End of DeepMetrix (.NET) StatScript -->
+
+</body>
+
+<!-- Mirrored from web.archive.org/web/20080109212326/http://www.stevesforums.com/forums/view_topic.php?id=36631&forum_id=40&jump_to=245269 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Apr 2026 06:15:29 GMT -->
+</html>
+
+<!--WowBB separator--><!--
+     FILE ARCHIVED ON 21:23:26 Jan 09, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:10:05 Apr 15, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 1.569
+  captures_list: 0.536
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.006
+  esindex: 0.008
+  cdx.remote: 141.105
+  LoadShardBlock: 128.579 (3)
+  PetaboxLoader3.datanode: 132.459 (4)
+  load_resource: 44.922
+-->
