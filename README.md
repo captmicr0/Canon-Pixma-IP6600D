@@ -25,7 +25,7 @@ My printer had a broken SD card door, so I recreated it as well. Unlike the orig
 # Software
 The **latest** fully featured print driver available from Canon only supports Windows 7 32-bit. There are a few 64-bit drivers that I've tested on Windows 11 and none of them work.
 
-The easiest way to deal with this is to create a Windows 7 32-bit virtual machine.
+The easiest way to deal with this is to create a Windows 7 32-bit virtual machine. After installing the driver you can use USB passthrough to access it from the virtual machine. 
 
 I used Microsoft's IE9 (or IE10) Windows 7 virtual machine image. You can find more details here:
 https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines
