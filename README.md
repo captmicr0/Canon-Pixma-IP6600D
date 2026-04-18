@@ -1,9 +1,23 @@
 # Canon-Pixma-IP6600D
 Software and 3D printed replacement parts for the Canon Pixma IP6600D.
 
+## Resources
+- http://pixma-faq.periastron.com/
+
+  This resource was **invaluable**. It's only available on [archive.org](http://web.archive.org/web/20080105035258/http://pixma-faq.periastron.com/)
+
+  I've created an [HTTrack backup](pixma-faq/index.html) of this archived website for safe keeping.
+
+- https://www.thingiverse.com/thing:5336201
+  
+  This made creating the disk tray much easier as this card tray had most of the difficult features already completed.
+
+  This repo has a [backup of the model](parts/card%20tray/PIXMA%20IP6600D%20Card%20Tray%20-%205336201.zip) for safe keeping.
+
 # Replacement Parts
 > [!TIP]
-> All parts should be printed slowly with a 0.16mm layer height for best results. My parts are designed with this layer height in mind. 
+> All parts should be printed slowly with a 0.16mm layer height for best results.\
+> My parts are designed with this layer height in mind. 
 
 ## Card Tray
 The only pre-existing part I could find for this printer was the PVC card tray on Thingiverse. I've included it in this repo for archival purposes.
