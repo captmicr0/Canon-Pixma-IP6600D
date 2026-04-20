@@ -42,7 +42,7 @@ The hinge was broken on my paper input tray so I recreated the entire tray. I re
 For the straighening/alignment flap you need a 1.5mm DIA x 10mm L metal rod and a torsion spring. The model uses McMaster-Carr Part # 9271K644 for the spring, which has a 1.7mm shaft DIA and ~9.5mm length length. 
 
 
-![Automatic Slot Feeder (Paper Input) Tray (Parametric)](parts/automatic%20slot%20feeder/Automatic%20Slot%20Feeder%20Tray%20v20.png)
+![Automatic Slot Feeder (Paper Input) Tray (Parametric)](parts/automatic%20slot%20feeder/automatic%20slot%20feeder%20tray.png)
 
 # Software
 The **latest** fully featured print driver available from Canon only supports Windows 7 32-bit. There are a few 64-bit drivers that I've tested on Windows 11 and none of them work.
