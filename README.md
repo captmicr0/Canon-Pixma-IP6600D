@@ -39,10 +39,12 @@ My printer had a broken SD card door, so I recreated it as well. Unlike the orig
 ## Automatic Slot Feeder (Paper Input) Tray
 The hinge was broken on my paper input tray so I recreated the entire tray. I realized it was also missing the paper straightening flap that (apparently) automatically folds out. I recreated this flap from a few pictures, included in the repo now, I was able to find online. I also recreated the sliding extension piece so I had a 100% complete recreation of the entire paper input tray.
 
-For the straighening/alignment flap you need a 1.5mm DIA x 10mm L metal rod and a torsion spring. The model uses McMaster-Carr Part # 9271K644 for the spring, which has a 1.7mm shaft DIA and ~9.5mm length length. 
-
 
 ![Automatic Slot Feeder (Paper Input) Tray (Parametric)](parts/automatic%20slot%20feeder/automatic%20slot%20feeder%20tray.png)
+
+For the straighening/alignment flap you need a 1.5mm DIA x 10mm L metal rod and a torsion spring. The model uses McMaster-Carr Part # 9271K644 for the spring, which has a 1.7mm shaft DIA and ~9.5mm length length. 
+
+![Automatic Slot Feeder (Paper Input) Flap Mechanism (Parametric)](parts/automatic%20slot%20feeder/automatic%20slot%20feeder%20flap%20mechanism.png)
 
 # Software
 The **latest** fully featured print driver available from Canon only supports Windows 7 32-bit. There are a few 64-bit drivers that I've tested on Windows 11 and none of them work.
