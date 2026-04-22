@@ -17,7 +17,7 @@ Software and 3D printed replacement parts for the Canon Pixma IP6600D.
 # Replacement Parts
 > [!TIP]
 > All parts should be printed slowly with a 0.16mm layer height for best results.\
-> My parts are designed with this layer height in mind. 
+> My parts are designed with this layer height in mind.
 
 ## Card Tray
 The only pre-existing part I could find for this printer was the PVC card tray on Thingiverse. I've included it in this repo for archival purposes.
